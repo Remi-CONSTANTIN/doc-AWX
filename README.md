@@ -8,7 +8,7 @@ AWX permet d'avoir une interface graphique pour exécuter et utiliser ansible ef
 # Parcours recommandé
 0. Commencez par comprendre l’intérêt d'AWX  
 [AWX_VS_Ansible](AWX_VS_Ansible.md)
-1. Chose faite, le premier contexte avec la technologie peut se faire en déployant une instance de test    
+1. Chose faite, le premier contact avec la technologie peut se faire en déployant une instance de test    
 [AWX/AWX-Installation_rapide_LAB](AWX/AWX-Installation_rapide_LAB.md)
 2. Complétez votre expérience en déployant un Gitea afin d’héberger vos YAML  
 [Gitea/AWX-Installation_rapide_GITEA_LAB](Gitea/AWX-Installation_rapide_GITEA_LAB.md)
