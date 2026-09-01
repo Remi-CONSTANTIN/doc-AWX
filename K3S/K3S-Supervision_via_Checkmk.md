@@ -2,7 +2,7 @@
 - Testé sur Rocky Linux 10 et Debian 13 mais devrais fonctionner sur les autres distributions récentes
 
 # Contexte
-Procédure testée avec un serveur Checkmk RAW 2.4 et un cluster mono-nœud K3S.
+Procédure testée avec un serveur Checkmk RAW 2.5 et un cluster mono-nœud K3S.
 
 # Objectif
 Nous objectif ici sera de mettre en place la supervision du cluster Kubernetes mono-nœud allant du système (agent Checkmk) à l'API Kubernetes.
