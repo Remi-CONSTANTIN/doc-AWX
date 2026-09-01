@@ -116,8 +116,8 @@ Coté hôte cela nous donnes donc plusieurs nouveaux services :
 
 ## Supervision ressources K3S
 Après la supervision de l'hôte K3S, il est possible de superviser certaines ressources à l'intérieur de K3S afin, et notamment, d'avoir de la visibilité sur les services qui y tournent.  
-Cela fonctionne pour celles du type : `statefulset`, `deployment`, `namespace`, `node`   
 Nous allons profitez du mécanisme de `piggyBack` fournis par Checkmk et déjà activé dès l'activation de la supervision sur l'hôte K3S.  
+Cela fonctionne pour celles du type : `statefulset`, `deployment`, `namespace`, `node`   
 
 Pour ce faire, il faut tout simplement créer un hôte dans checkmk avec le nom du conteneur dans k3s.  
 
