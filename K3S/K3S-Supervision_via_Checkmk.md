@@ -126,7 +126,7 @@ Pour ce faire, il faut tout simplement créer un hôte dans checkmk avec le nom 
 1. On prends le nom du namespace
 <img width="241" height="152" alt="awx_namespace" src="https://github.com/user-attachments/assets/f623dc36-882a-4cfb-8f9e-8ee86ef5ade2" />  
 
-2. On créer l'hôte dans checkmk en suivant le pattern `<type>_<nom-cluster>_<nom-namespace>`
+2. On créer l'hôte dans checkmk en suivant le pattern `<type>_<nom-cluster>_<nom-ressource>`
 
 <img width="489" height="233" alt="awx_namespace_checkmk" src="https://github.com/user-attachments/assets/cfbd864e-c7c9-4458-95f7-7b2850f6d234" />  
 
