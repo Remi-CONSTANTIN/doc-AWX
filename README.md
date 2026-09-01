@@ -6,13 +6,15 @@ Ansible en CLI ne permet pas la collaboration entre équipe et la segmentation d
 AWX permet d'avoir une interface graphique pour exécuter et utiliser ansible efficacement.
 
 # Parcours recommandé
-1. Commencez par déployer une instance de test    
+0. Commencez par comprendre l’intérêt d'AWX  
+[AWX_VS_Ansible](AWX_VS_Ansible.md)
+1. Chose faite, le premier contexte avec la technologie peut se faire en déployant une instance de test    
 [AWX/AWX-Installation_rapide_LAB](AWX/AWX-Installation_rapide_LAB.md)
-3. Complétez votre expérience en déployant un Gitea afin d’héberger vos YAML  
+2. Complétez votre expérience en déployant un Gitea afin d’héberger vos YAML  
 [Gitea/AWX-Installation_rapide_GITEA_LAB](Gitea/AWX-Installation_rapide_GITEA_LAB.md)
-5. Une fois la technologie testée et appréhendée, déployez le en PROD  
+3. Une fois la technologie testée et appréhendée, déployez le en PROD  
 [AWX/AWX-Installation_PROD](AWX/AWX-Installation_PROD.md)
-7. Déployez Gitea avec un tutoriel plus adapté à la PROD  
+4. Déployez Gitea avec un tutoriel plus adapté à la PROD  
 [Gitea/AWX-Installation_GITEA_PROD](Gitea/AWX-Installation_GITEA_PROD.md)
 
 **(Optionnel)**
