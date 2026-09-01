@@ -1,5 +1,3 @@
-#kubernetes #k3s #checkmk #checmk23 
-
 # DISCLAIMER
 - Testé sur Rocky Linux 10 et Debian 13 mais devrais fonctionner sur les autres distributions récentes
 
@@ -21,9 +19,9 @@ L'agent ne supervise pas la partie Kubernetes mais reste utile car il faut tout 
 Plusieurs options s'offrent à vous en fonction de votre déploiement du serveur Checkmk.
 Il vous faudra adapter à votre gestionnaire de paquet et à votre interface WEB (HTTP/HTTPS)
 
-1. Téléchargez et installez l'agent
+1. Téléchargez et installez l'agent provenant de votre serveur checkmk. Voici un exemple à adapter à votre contexte :
 ```
-wget --no-check-certificate https://192.168.1.223/supervision1/check_mk/agents/check-mk-agent_2.4.0p5-1_all.deb && rpm -Uvh ./check-mk-agent-2.4.0p5-1.noarch.rpm
+wget --no-check-certificate https://10.10.10.125/supervision1/check_mk/agents/check-mk-agent_2.4.0p5-1_all.deb && rpm -Uvh ./check-mk-agent-2.4.0p5-1.noarch.rpm
 ```
 
 2. Créez votre hôte via l'interface Web du serveur Checkmk (spécifiez les informations habituelles, IP, hostname etc... )
