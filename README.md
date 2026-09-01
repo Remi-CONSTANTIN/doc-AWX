@@ -6,14 +6,20 @@ Ansible en CLI ne permet pas la collaboration entre équipe et la segmentation d
 AWX permet d'avoir une interface graphique pour exécuter et utiliser ansible efficacement.
 
 # Parcours recommandé
-1. Commencez par déployer une instance de test avec [AWX/AWX-Installation_rapide_LAB](AWX/AWX-Installation_rapide_LAB.md)
-2. Complétez votre expérience en déployant un Gitea afin d’héberger vos YAML [Gitea/AWX-Installation_rapide_GITEA_LAB](Gitea/AWX-Installation_rapide_GITEA_LAB.md)
-3. Une fois la technologie testée et appréhendée, déployez le en PROD [AWX/AWX-Installation_PROD](AWX/AWX-Installation_PROD.md)
-4. Déployez Gitea avec un tutoriel plus adapté à la PROD [Gitea/AWX-Installation_GITEA_PROD](Gitea/AWX-Installation_GITEA_PROD.md)
+1. Commencez par déployer une instance de test    
+[AWX/AWX-Installation_rapide_LAB](AWX/AWX-Installation_rapide_LAB.md)
+3. Complétez votre expérience en déployant un Gitea afin d’héberger vos YAML  
+[Gitea/AWX-Installation_rapide_GITEA_LAB](Gitea/AWX-Installation_rapide_GITEA_LAB.md)
+5. Une fois la technologie testée et appréhendée, déployez le en PROD  
+[AWX/AWX-Installation_PROD](AWX/AWX-Installation_PROD.md)
+7. Déployez Gitea avec un tutoriel plus adapté à la PROD  
+[Gitea/AWX-Installation_GITEA_PROD](Gitea/AWX-Installation_GITEA_PROD.md)
 
 **(Optionnel)**
-1. Mettez en supervision votre nœud Kubernetes si vous possédez un serveur Checkmk [K3S/K3S-Supervision_via_Checkmk](K3S/K3S-Supervision_via_Checkmk.md)
-2. Connectez votre AWX à l'AD afin de faciliter/sécuriser la gestion des droits [AWX/Synchro_LDAPS_AD](AWX/Synchro_LDAPS_AD.md)
+1. Mettez en supervision votre nœud Kubernetes si vous possédez un serveur Checkmk  
+[K3S/K3S-Supervision_via_Checkmk](K3S/K3S-Supervision_via_Checkmk.md)
+3. Connectez votre AWX à l'AD afin de faciliter/sécuriser la gestion des droits  
+[AWX/Synchro_LDAPS_AD](AWX/Synchro_LDAPS_AD.md)
 
 # Recommandations système
 Il faut prévoir assez de ressources pour le bon fonctionnement du système et prévoir le fait qu'AWX est plutôt gourmand même au repos.
