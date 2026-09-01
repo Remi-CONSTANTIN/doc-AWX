@@ -21,7 +21,7 @@ Il vous faudra adapter à votre gestionnaire de paquet et à votre interface WEB
 
 1. Téléchargez et installez l'agent provenant de votre serveur checkmk. Voici un exemple à adapter à votre contexte :
 ```
-wget --no-check-certificate https://10.10.10.125/supervision1/check_mk/agents/check-mk-agent_2.4.0p5-1_all.deb && rpm -Uvh ./check-mk-agent-2.4.0p5-1.noarch.rpm
+wget https://10.10.10.125/supervision1/check_mk/agents/check-mk-agent_2.5.0p11-1_all.deb && apt install ./check-mk-agent_2.5.0p11-1_all.deb
 ```
 
 2. Créez votre hôte via l'interface Web du serveur Checkmk (spécifiez les informations habituelles, IP, hostname etc... )
