@@ -59,7 +59,6 @@ helm upgrade --install --create-namespace -n checkmk-monitoring checkmk checkmk_
 ```
 kubectl get pods -n checkmk-monitoring
 ``` 
-![[checkmk-collector-k3s.png]]
 
 6. Transformez le service en `NodePort`
 Par défaut, le collecteur n'est pas accessible depuis l'extérieur du cluster. Nous allons l'exposer sur un port fixe de la machine physique (NodePort) pour que le serveur Checkmk puisse l'interroger.
@@ -72,7 +71,7 @@ kubectl patch svc checkmk-cluster-collector -n checkmk-monitoring -p '{"spec": {
 ```
 kubectl get svc -n checkmk-monitoring checkmk-cluster-collector
 ```
-![[static-nodeport-checkmk-collector.png]]
+
 On voit que le port est bien `30030`, celui que nous avons choisis
 
 8. Extraire le token et l'afficher car Checkmk a besoin de celui-ci pour avoir le droit de lire les données
