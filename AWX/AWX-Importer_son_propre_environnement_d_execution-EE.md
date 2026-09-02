@@ -70,7 +70,7 @@ Vous allez devoir vous authentifier via connexion web
 3. Docker a besoin que l'image soit "étiquetée" (tagguée) avec l'adresse du registre. 
 Dans mon cas ça donne (adaptez à votre nom de compte) :
 ```
-docker tag mon-ee-proxmox:latest tadaron/awx-ee:latest
+docker tag mon-awx-ee:latest tadaron/awx-ee:latest
 ```
 
 4. Envoyez l'image sur votre dépôt (adaptez à votre nom de compte)
